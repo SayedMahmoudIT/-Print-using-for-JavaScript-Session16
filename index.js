@@ -2,38 +2,33 @@
 //------------------------------
 
 var x = '';
-var y='';
+var y = '';
 for (index = 0; index < 5; index++) {
-
    switch (index) {
       case 0:
-         x = '*';
-         break;
+         x = '*';  break;
       case 1:
-         x = '**';
-         break;
+         x = '**'; break;
       case 2:
-         x = '***';
-         break;
+         x = '***'; break;
       case 3:
-         x = '****';
-         break;
+         x = '****'; break;
       case 4:
-         x = '*****';
-         break;
+         x = '*****'; break;
    }
-
-//   y=y+x;
-
-document.write(x);
-document.write("<br>");
-// document.write("\n");
-
-
+   document.write(x);
+   document.write("<br>");
 }
 
+// -------------------------
 
-// document.getElementById('print').innerHTML = y;
-// document.write='*'+("\n");
+for (var x = 1; x < 8; x++) {
+   for (var y = 1; y <= x; y++) {
+      document.write('*');
+   }
+   document.write("<br>");
+}
+
+//------------------------
 
 
