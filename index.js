@@ -22,7 +22,9 @@ for (index = 0; index < 5; index++) {
 
 // -------------------------
 
-for (var x = 1; x < 8; x++) {
+var num=7
+
+for (var x = 1; x <= num; x++) {
    for (var y = 1; y <= x; y++) {
       document.write('*');
    }
